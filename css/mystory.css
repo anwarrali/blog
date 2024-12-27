@@ -1,0 +1,44 @@
+#my_story_article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 20px;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ .title {
+    text-align: center;
+}
+.my_story_article p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+ .mys_img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.519);
+   grid-column: span 2;
+   display: block;
+}
+.figure2 figcaption{
+    color: #354F52;
+    font-size: 1em;
+    padding: 3px;
+    text-align: center;
+    margin: 10px;
+  }
+  @media (max-width: 768px) {
+    #my_story_article {
+        grid-template-columns: 1fr; 
+    }
+
+    .mys_img {
+        grid-column: span 1; 
+    }
+}

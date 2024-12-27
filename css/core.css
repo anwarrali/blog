@@ -1,0 +1,141 @@
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #354F52;
+}
+body {
+    background-color: #cad2c5;
+}
+
+h1 {
+    color: #354F52;
+}
+
+p {
+    color: #2f3e46;
+}
+.name {
+    color: #cad2c5;
+    text-align: center;
+}
+header {
+    font-size: 2rem;
+    background-color:#354F52;
+    text-align: center;
+    h1{
+        color: #cad2c5;
+      
+    }
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.519);
+
+}
+nav a {
+    color: #cad2c5;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 8px 15px;
+   
+
+    
+}
+
+nav a:hover {
+    color: #52796F;
+}
+
+
+nav {
+    display: flex;
+   justify-content: center;
+    
+}
+
+footer{
+    background-color: #354F52;
+    padding: 20px;
+     margin-top: 50px;
+     text-align: center;
+    p{
+        color: #cad2c5;
+        font-size: 15px;
+        text-align: center;
+        margin: 10px;
+    }
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.footer form {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px 0;
+   
+}
+
+.footer input,
+.footer textarea {
+    color: #cad2c5;
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cad2c5;
+    border-radius: 20px;
+    background-color:#354F52;
+}
+
+.footer button {
+    background-color:#cad2c5;
+    color:#354F52;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.519);
+
+}
+
+.footer button:hover {
+    background-color:#779b92;
+}
+
+textarea {
+    resize: none;  
+    width: 300px;  
+    height: 150px; 
+}
+
+.social-media a {
+    font-size: 24px;
+    margin: 10px;
+    text-decoration: none;
+    color: #cad2c5;
+  }
+
+  .social-media a:hover {
+    color: #84A98C;
+  }
+
+  .social-media i {
+    margin-right: 8px;
+  }
+  .social-media-icons a {
+    font-size: 40px; 
+    margin: 15px;   
+    color: black;   
+    text-decoration: none; 
+  }
+.social-media{
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+.who_i_am {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about_article p {
+    margin: 20px;
+    font-size: 1.1rem;
+}
+
+#about_img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.519);
+}
+
+.about_article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
